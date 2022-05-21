@@ -3,8 +3,8 @@
 #![deny(missing_docs)]
 #![no_std]
 
-pub use bitrate;
-use bitrate::*;
+pub use embedded_time;
+use embedded_time::rate::*;
 use cortex_m::asm::delay;
 use embedded_hal::blocking::delay::DelayMs;
 use embedded_hal::blocking::delay::DelayUs;

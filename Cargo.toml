@@ -1,15 +1,15 @@
 [package]
-name = "asm-delay"
-version = "0.9.1-alpha.0"
-authors = ["Roma Sokolov <sokolov.r.v@gmail.com>"]
-description = "no_std implementation of embedded-hal DelayMs & DelayUs based on arm::delay"
+name = "asm-delay-embedded-time"
+version = "0.9.1"
+authors = ["Roma Sokolov <sokolov.r.v@gmail.com>", "Andrew Ealovega <Andrew@Ealovega.dev>"]
+description = "no_std implementation of embedded-hal DelayMs & DelayUs based on arm::delay, featuring embedded-time"
 keywords = ["arm", "cortex-m", "time"]
 license = "MIT"
 readme = "README.md"
-edition = "2018"
-repository = "https://github.com/copterust/asm-delay"
+edition = "2021"
+repository = "https://github.com/andyblarblar/asm-delay-embedded-time"
 
 [dependencies]
-embedded-hal = "0.2.3"
+embedded-hal = "0.2.7"
 cortex-m = ">= 0.6"
-bitrate = "0.1.1"
+embedded-time = "0.12.1"
